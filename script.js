@@ -9,17 +9,19 @@ window.onload = function(){
 
     // Add event to each tag strings.
     for(var x = 0; x < elements.length; x++){
-      elements[x].addEventListener(
-        'click',
-        (function(x){
-          return function(){
-            location.href = 'https://qiita.com/search?q=user%3A' + username + '+tag%3A' + tags[x];
-          }
-        })(x)
-      );
-      // Modify styles to simulate hyperlink.
-      elements[x].style.textDecoration = 'underline';
-      elements[x].style.cursor = 'pointer';
+      if(tags[x] != 'Others'){
+        elements[x].addEventListener(
+          'click',
+          (function(x){
+            return function(){
+              location.href = 'https://qiita.com/search?q=user%3A' + username + '+tag%3A' + tags[x];
+            }
+          })(x)
+        );
+        // Modify styles to simulate hyperlink.
+        elements[x].style.textDecoration = 'underline';
+        elements[x].style.cursor = 'pointer';
+      }
     }
   }
   // Get tag strings from DOM.

@@ -1,7 +1,7 @@
 {
 "update_url": "https://clients2.google.com/service/update2/crx",
   "name": "ImproveTagList for Qiita",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 2,
   "description": "Enable to click tag list and show entries filtered by user and tag",
   "author": "Toshinari Suzuki",

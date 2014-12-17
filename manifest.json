@@ -3,7 +3,7 @@
   "name": "ImproveTagList for Qiita",
   "version": "0.0.3",
   "manifest_version": 2,
-  "description": "Enable to click tag list and show entries filtered by user and tag",
+  "description": "Enables you to click tag list and jump to corresponding search results page.",
   "author": "Toshinari Suzuki",
   "homepage_url": "http://suzuki.toshinari.jp",
   "icons": {

@@ -36,6 +36,6 @@ window.onload = function(){
   }
   // Get username from DOM.
   function getUsername(){
-    return document.getElementsByClassName('url-name')[0].children[0].textContent;
+    return document.getElementsByClassName('userPage_heading')[0].children[0].textContent;
   }
 }

@@ -1,6 +1,6 @@
-# AddSearchOptions
+# ImproveTagListForQiita
 
-Enable to click tag list and you can jump to search results page.
+Google Chrome Extension that enables you to click tag list and jump to corresponding search results page.
 
 ## Installation
 

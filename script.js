@@ -14,7 +14,7 @@ window.onload = function(){
           'click',
           (function(x){
             return function(){
-              location.href = 'https://qiita.com/search?q=user%3A' + username + '+tag%3A' + tags[x];
+              location.href = 'https://qiita.com/search?q=user%3A' + encodeURIComponent(username) + '+tag%3A' + encodeURIComponent(tags[x]);
             }
           })(x)
         );

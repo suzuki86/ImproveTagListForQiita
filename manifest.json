@@ -1,9 +1,9 @@
 {
 "update_url": "https://clients2.google.com/service/update2/crx",
   "name": "ImproveTagList for Qiita",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "manifest_version": 2,
-  "description": "Enables you to click tag list and jump to corresponding search results page.",
+  "description": "Enables you to click tag list and you can jump to corresponding search results page.",
   "author": "Toshinari Suzuki",
   "homepage_url": "http://suzuki.toshinari.jp",
   "icons": {
